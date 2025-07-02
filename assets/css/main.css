@@ -3421,8 +3421,10 @@ section,
 
 .hero-2 .carousel-container {
   position: absolute;
-  inset: 90px 64px 64px 64px;
-  display: flex;
+  /*inset: 90px 64px 64px 64px;
+  display: flex;*/
+  inset: 60px 64px 190px 64px;
+  display: block;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -3450,7 +3452,7 @@ section,
 
   .hero-2 h2,
   .hero-2 p {
-    max-width: 60%;
+    /*max-width: 60%;*/
   }
 }
 
